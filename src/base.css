@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: 'HelveticaBold';
+}
+
+@font-face {
+  font-family: 'CarlaSansRegular';
+  src: url('./fonts/CarlaSansRegular.ttf');
+}
+
+@font-face {
+  font-family: 'Hertine';
+  src: url('./fonts/Hertine.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url('./fonts/HelveticaBold.ttf');
+}
