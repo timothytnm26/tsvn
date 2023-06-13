@@ -1,7 +1,13 @@
 {
-    "title": "Taylor Swift Việt Nam",
-    "label": "Chọn ngôn ngữ!",
-    "about": "Tụi mình",
-    "home": "Trang chủ",
-    "user": "Bạn là: {{name}}"
+    "nav": {
+        "title": "Taylor Swift Việt Nam",
+        "label": "Chọn ngôn ngữ!",
+        "about": "Tụi mình",
+        "home": "Trang chủ",
+        "wonderstruck": "Wonderstruck",
+        "user": "Bạn là: {{name}}"
+    },
+    "home": {
+        "title": "Taylor Swift Việt Nam"
+    }
 }

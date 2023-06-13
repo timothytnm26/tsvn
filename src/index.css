@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   user-select: none;
-}
-
-body {
-  background: #292c2e;
-  color: white;
-  font-size: 20px;
+  font-size: 16px;
+  --header-height: 100px;
+  --header-height-mobile: 50px;
+  --speak-now-1: #1e0425;
+  --speak-now-2: #3b1a4b;
+  --speak-now-3: #613481;
+  --speak-now-4: #8b56a7;
+  --speak-now-5: #b67cd6;
+  --speak-now-6: #cfa5df;
+  --speak-now-7: #e7ccec;
 }
 
 main {
@@ -27,33 +31,31 @@ main {
 h1 {
   font-size: 4em;
   font-weight: 800;
-  /* margin-top: .5em; */
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  background: #000;
-  padding: 1em;
-}
-
-nav>div {
-  display: flex;
-  gap: 1em;
 }
 
 .link {
   text-decoration: none;
-  color: gray;
 }
 
-.link.active {
-  color: white;
-  font-weight: bold;
+@font-face {
+  font-family: "CarlaSansRegular";
+  src: local("CarlaSansRegular"),
+    url("./fonts/CarlaSansRegular.ttf") format("truetype");
 }
 
-nav select {
-  font-size: 15px;
-  padding: .3em .5em;
-  cursor: pointer;
+@font-face {
+  font-family: "Hertine";
+  src: local("Hertine"), url("./fonts/Hertine.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaBold";
+  src: local("HelveticaBold"),
+    url("./fonts/HelveticaBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PistilliRoman";
+  src: local("PistilliRoman"),
+    url("./fonts/PistilliRoman.otf") format("truetype");
 }

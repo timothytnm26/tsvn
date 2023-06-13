@@ -1,7 +1,13 @@
 {
-    "title": "Taylor Swift VietNam",
-    "label": "Select another language!",
-    "about": "About me",
-    "home": "Home",
-    "user": "My name is: {{name}}"
+    "nav": {
+        "title": "Taylor Swift VietNam",
+        "label": "Select another language!",
+        "about": "About us",
+        "home": "Home",
+        "wonderstruck": "Wonderstruck",
+        "user": "My name is: {{name}}"
+    },
+    "home": {
+        "title": "Taylor Swift Vietnam"
+    }
 }
