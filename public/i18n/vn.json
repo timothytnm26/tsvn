@@ -9,5 +9,69 @@
     },
     "home": {
         "title": "Taylor Swift Việt Nam"
-    }
+    },
+    "about": {
+        "script": {
+            "p1": "Khác với các cộng đồng Fan Club của Taylor Swift chuyên nghiệp tại nước ngoài, cộng đồng fan Taylor Swift Việt Nam không có một nơi tập trung để gặp gỡ và chia sẻ, học hỏi lẫn nhau. Hiện này, có nhiều diễn đàn liên quan tới cộng đồng fan Taylor trên thế giới nhưng sự hạn chế về khoảng cách và ngôn ngữ khiến các thành viên của Việt Nam khó lòng giao lưu và tiếp cận, bên cạnh đó một số nhóm thành viên của Việt Nam đã được mở ra nhưng còn thưa thớt hoặc hoạt động không được chuyên nghiệp khiến cho việc gắn kết cộng đồng  fan Taylor Swift tại Việt Nam gặp nhiều trở ngại.",
+            "p2": "Chính vì vậy, Cộng đồng fan Taylor Swift tại Việt Nam là một cộng đồng được ra đời với mong muốn được tại ra một nơi sinh hoạt chung, kết nối và phát triển cộng đồng những con người có cùng đam mê và sở thích tới Taylor Swift.",
+            "p3": "Tất cả mọi người có sở thích về âm nhạc và cuộc sống của Taylor Swift, không giới hạn độ tuổi với mong muốn được chia sẻ, học hỏi lẫn nhau và tìm kiếm cơ hội để giao lưu, kết bạn với những người có chung sở thích đều được chào đón tới cộng đồng fan Taylor Swift tại Việt Nam."
+        }
+    },
+    "about_wonderstruck": {
+        "script": {
+            "p1": "Một Taylor Swift thành thật đến tàn nhẫn là một cô gái như thế nào? Speak Now (Taylor’s Version) là album chất chứa những tuyệt tác do chính bản thân Taylor tự sáng tác trong quá trình trưởng thành. Có lúc thiếu nữ đôi mươi ấy muốn được vươn cao, bay xa; có lúc lại trầm lắng, đăm chiêu đến kỳ lạ.",
+            "p2": "Những trang nhật ký này một lần nữa lại được Taylor thuật lại, và những thanh âm cuồng nhiệt của tuổi trẻ đó hẳn sẽ làm lay động trái tim của tất cả chúng ta. Đến với “The Eras Party (Chapter 03)”, chúng ta hãy cùng nhau lắng nghe, phân tích các ca khúc để thấu hiểu cô gái Speak Now nhiều hơn nhé.",
+            "p3": "Đối tượng tham gia: Tất cả những bạn luôn yêu thích và ủng hộ Taylor Swift"
+        }
+    },
+    "form_inf0": [
+        {
+            "id": "f_hn",
+            "name": "Hà Nội",
+            "price": "149000",
+            "disc": {
+                "p1": "Mỗi vé bao gồm khu vực chỗ ngồi/đứng riêng, nước uống và quà tặng",
+                "p2": "Mỗi người mua tối đa 04 vé",
+                "p3": "Chuyển khoản đúng cú pháp",
+                "p4": "Chuyển khoản ngay tại đơn đăng ký trước khi nộp đơn"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        },
+        {
+            "id": "f_hcm",
+            "name": "Hồ Chí Minh",
+            "price": "149000",
+            "disc": {
+                "p1": "Mỗi vé bao gồm khu vực chỗ ngồi/đứng riêng, nước uống và quà tặng",
+                "p2": "Mỗi người mua tối đa 04 vé",
+                "p3": "Chuyển khoản đúng cú pháp",
+                "p4": "Chuyển khoản ngay tại đơn đăng ký trước khi nộp đơn"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        },
+        {
+            "id": "f_dn",
+            "name": "Hà Nội",
+            "price": "149000",
+            "disc": {
+                "p1": "Mỗi vé bao gồm khu vực chỗ ngồi/đứng riêng, nước uống và quà tặng",
+                "p2": "Mỗi người mua tối đa 04 vé",
+                "p3": "Chuyển khoản đúng cú pháp",
+                "p4": "Chuyển khoản ngay tại đơn đăng ký trước khi nộp đơn"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        }
+    ]
 }

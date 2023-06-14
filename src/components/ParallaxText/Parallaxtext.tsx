@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 import {
   motion,
   useScroll,
@@ -11,7 +11,7 @@ import {
 import { wrap } from "@motionone/utils";
 import "./style.css";
 interface ParallaxProps {
-  children: string;
+  children: React.ReactNode;
   baseVelocity: number;
 }
 
@@ -66,6 +66,9 @@ export const ParallaxText = ({
   return (
     <div className="parallax">
       <motion.div className="scroller" style={{ x }}>
+        <span>{children} </span>
+        <span>{children} </span>
+        <span>{children} </span>
         <span>{children} </span>
         <span>{children} </span>
         <span>{children} </span>

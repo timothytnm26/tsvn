@@ -1,8 +1,9 @@
 .parallax {
   overflow: hidden;
   letter-spacing: 2px;
-  line-height: 0.8;
+  line-height: 1;
   margin: 0;
+  padding: 0;
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
@@ -10,17 +11,20 @@
 
 .parallax .scroller {
   font-weight: 300;
-  text-transform: uppercase;
-  display: flex;
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
+  gap: 6rem;
 }
 
 .parallax span {
   display: block;
-  margin-right: 30px;
-  font-size: 6rem;
+  font-size: 4rem;
   color: white;
   font-family: PistilliRoman;
+}
+@media screen and (max-width: 768px) {
+  .parallax span {
+    font-size: 1rem;
+  }
 }

@@ -24,7 +24,7 @@ export const Navigation = () => {
         </NavLink>
       </div>
       <div className="right">
-        <NavLink to="/about">{t("nav.about")}</NavLink>
+        <a href="/#about">{t("nav.about")}</a>
         <NavLink className="wonderstruck" to="/wonderstruck">
           {t("nav.wonderstruck")}
         </NavLink>

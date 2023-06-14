@@ -9,5 +9,69 @@
     },
     "home": {
         "title": "Taylor Swift Vietnam"
-    }
+    },
+    "about": {
+        "script": {
+            "p1": "Compared to our international friends with dedicated and professional fan clubs and organisations, our Vietnamese Swifties don’t have a dedicated and centralized platform to interact with each other and to share our love for Taylor. Many international websites and forums for international Swifties exist, however due to geographical limits and language barriers, we find it difficult to participate; to alleviate the problem, groups and clans of Vietnamese Swifties emerge on various platforms, however the small size and lack of professional management prevents us from uniting our efforts into one cohesive community.",
+            "p2": "In light of the situation, we decided to build Taylor Swift Fan Community in Vietnam, a community platform for Swifties to interact and connect with other people, who share a similar passion and love for Taylor Swift.",
+            "p3": "We welcome anyone who shares the love for Taylor Swift’s music and her image. There is no age limitation when it comes to the passion for sharing stories and learning from each other. We also welcome anyone who is seeking for the opportunity to make friends and connecting to people with the same interests."
+        }
+    },
+    "about_wonderstruck": {
+        "script": {
+            "p1": "What is a brutally honest Taylor Swift like? Speak Now (Taylor's Version) is an album of masterpieces written by Taylor as she was growing up. Sometimes, that 20-year-old girl desired to reach high and fly away; sometimes she seemed quiet and wistful.",
+            "p2": "Once again, these diary pages are about to be narrated by Taylor, and our hearts will undoubtedly be touched by the passionate melodies of youth. Come to \"The Eras Party (Chapter 03)\", listen together and analyze the songs to understand our Speak Now girl more.",
+            "p3": "Whoever loves and supports Taylor Swift is welcome to attend the event."
+        }
+    },
+    "form_inf0": [
+        {
+            "id": "f_hn",
+            "name": "Hà Nội",
+            "price": "149000",
+            "disc": {
+                "p1": "Each ticket includes a separate seating/standing area, drink and gift.",
+                "p2": "Buy maximum 04 tickets",
+                "p3": "Transfer money with correct syntax",
+                "p4": "Transfer money immediately before submitting"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        },
+        {
+            "id": "f_hcm",
+            "name": "Ho Cho Minh City",
+            "price": "149000",
+            "disc": {
+                "p1": "Each ticket includes a separate seating/standing area, drink and gift.",
+                "p2": "Buy maximum 04 tickets",
+                "p3": "Transfer money with correct syntax",
+                "p4": "Transfer money immediately before submitting"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        },
+        {
+            "id": "f_dn",
+            "name": "Da Nang",
+            "price": "149000",
+            "disc": {
+                "p1": "Each ticket includes a separate seating/standing area, drink and gift.",
+                "p2": "Buy maximum 04 tickets",
+                "p3": "Transfer money with correct syntax",
+                "p4": "Transfer money immediately before submitting"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        }
+    ]
 }

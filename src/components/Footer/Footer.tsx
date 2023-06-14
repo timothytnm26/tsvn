@@ -1,14 +1,24 @@
-import TSVNLogo from "../TSVNLogo";
+import styled from "styled-components";
 import "./styles.css";
-export function Footer({ title = "" }) {
+import { FB, IG } from "./Icons";
+const Social = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+export function Footer() {
   return (
     <footer>
-      <a href="/" rel="noreferrer">
-        <TSVNLogo />
-      </a>
-      <a href="/" rel="noreferrer">
-        <code>{title}</code>
-      </a>
+      <span>© Taylor Swift Vietnam</span>
+      <Social>
+        <a href="https://www.facebook.com/erasTSVN" target="_blank">
+          <FB />
+        </a>
+        <a href="https://www.instagram.com/taylor.vietnam/" target="_blank">
+          <IG />
+        </a>
+      </Social>
     </footer>
   );
 }
