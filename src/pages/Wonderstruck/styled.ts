@@ -12,18 +12,20 @@ export const Wrapper = styled.div`
 `;
 
 export const About = styled.div`
+  height: 100vh;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
-  flex-grow: 2;
   gap: 2rem;
   @media (min-width: 768px) {
     flex-direction: row;
   }
 `;
 export const Script = styled.div`
+  max-width: 800px;
   p {
     font-size: 1rem !important;
     color: white;
@@ -38,4 +40,8 @@ export const Taylor = styled.div`
   display: flex;
   font-family: "Montserrat", sans-serif;
   color: white;
+`;
+export const WonderstruckImg = styled.img`
+  width: 100%;
+  max-width: 600px;
 `;

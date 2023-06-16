@@ -15,11 +15,11 @@ export const Home = () => {
     <Container>
       <Wrapper>
         {" "}
-        <ParticlesComponent
+        {/* <ParticlesComponent
           id="hero-particles"
           className="w-full h-screen z-0 min-h-[800px]"
           particlesOptions={heroOptions}
-        />
+        /> */}
       </Wrapper>
       {/* <HomeBanner /> */}
       <ParaWrapper>

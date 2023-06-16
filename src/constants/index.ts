@@ -1,7 +1,10 @@
 import tsvn from "../assets/imgs/tsvn.svg";
-
+import taylorSpeakNow from "../assets/imgs/taylorSpeakNow.jpg";
+import wonderstruck from "../assets/imgs/wonderstruck.png";
 export const IMAGES = {
   tsvn: tsvn,
+  taylorSpeakNow: taylorSpeakNow,
+  wonderstruck: wonderstruck,
 };
 export const LANGUAGES = [
   { label: "Tiếng Việt", code: "vn" },
@@ -10,8 +13,8 @@ export const LANGUAGES = [
 export const FIND_DATA_KEY = "FB_PUBLIC_LOAD_DATA_";
 export const FORM_RESPONSE = "formResponse";
 
-export const FORM_FIELDS = [
-  {
+export const FORM_FIELDS = {
+  sg: {
     id: "hcm",
     form_url:
       "https://docs.google.com/forms/d/e/1FAIpQLSetLCl8O1g8HNQaGBX4EoS8G_lSO6kxUN6GtP0vdTfsJC354Q/",
@@ -28,4 +31,4 @@ export const FORM_FIELDS = [
       note: 1044442296,
     },
   },
-];
+};

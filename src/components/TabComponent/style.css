@@ -6,20 +6,25 @@
 img {
   max-width: 100%;
 }
-
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
 .tabs-component {
   padding-top: var(--header-height-mobile);
   border-radius: 1rem;
-  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
 }
 
 .tab-links {
   padding: 0;
-  margin: 0 auto 20px;
+  margin: auto;
   list-style: none;
-  max-width: 400px;
   display: flex;
+  max-width: 600px;
+  height: 70px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .tab {
@@ -28,7 +33,7 @@ img {
 
 .tab a {
   text-decoration: none;
-  color: black;
+  overflow: hidden;
 }
 
 .tab::before {
@@ -84,14 +89,18 @@ img {
 }
 
 .cards {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
 }
-
+.contents {
+  display: flex;
+}
 .content-card {
-  width: 48%;
+  width: 100%;
   margin-bottom: 26px;
 }
 
@@ -115,4 +124,17 @@ img {
 
 .content-card .info {
   padding: 10px 0;
+}
+.ticket-btn {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: monospace;
+}
+
+.tab_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

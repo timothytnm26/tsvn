@@ -165,7 +165,44 @@ export const heroOptions = {
       type: "images",
       images: [
         {
-          src: "src/assets/imgs/tsvn.svg",
+          src: "src/assets/imgs/sp2.svg",
+          width: 100, // Adjust the width of the image
+          height: 100,
+          // Adjust the height of the image
+        },
+
+        {
+          src: "src/assets/imgs/buf0.svg",
+          width: 100, // Adjust the width of the image
+          height: 100,
+          // Adjust the height of the image
+        },
+        {
+          src: "src/assets/imgs/buf1.svg",
+          width: 100, // Adjust the width of the image
+          height: 100,
+          // Adjust the height of the image
+        },
+        {
+          src: "src/assets/imgs/buf2.svg",
+          width: 100, // Adjust the width of the image
+          height: 100,
+          // Adjust the height of the image
+        },
+        {
+          src: "src/assets/imgs/buf3.svg",
+          width: 100, // Adjust the width of the image
+          height: 100,
+          // Adjust the height of the image
+        },
+        {
+          src: "src/assets/imgs/buf4.svg",
+          width: 100, // Adjust the width of the image
+          height: 100,
+          // Adjust the height of the image
+        },
+        {
+          src: "src/assets/imgs/buf5.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
@@ -177,7 +214,7 @@ export const heroOptions = {
       random: {
         enable: true,
         minimumValue: 25,
-        maxValue: 35,
+        maxValue: 50,
       },
       animation: {
         count: 0,

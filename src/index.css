@@ -19,6 +19,7 @@ body {
   user-select: none;
   font-size: 16px;
   --header-height: 100px;
+  --footer-height: 80px;
   --header-height-mobile: 50px;
   --speak-now-1: #1e0425;
   --speak-now-2: #3b1a4b;
@@ -43,6 +44,10 @@ main {
 h1 {
   font-size: 4em;
   font-weight: 800;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 600;
 }
 
 .link {

@@ -22,10 +22,24 @@
             "p1": "What is a brutally honest Taylor Swift like? Speak Now (Taylor's Version) is an album of masterpieces written by Taylor as she was growing up. Sometimes, that 20-year-old girl desired to reach high and fly away; sometimes she seemed quiet and wistful.",
             "p2": "Once again, these diary pages are about to be narrated by Taylor, and our hearts will undoubtedly be touched by the passionate melodies of youth. Come to \"The Eras Party (Chapter 03)\", listen together and analyze the songs to understand our Speak Now girl more.",
             "p3": "Whoever loves and supports Taylor Swift is welcome to attend the event."
-        }
+        },
+        "buy_ticket": "Buy Ticket"
     },
-    "form_inf0": [
-        {
+    "form": {
+        "name": "Full Name",
+        "dob": "Date of Birth",
+        "email": "Email",
+        "phone": "Phone Number",
+        "fb_link": "Facebook",
+        "ticket_count": "Number of Tickets",
+        "ticket_count_max": 4,
+        "bank_no": "Bank Account",
+        "bill_image": "Transfer Bill Image",
+        "note": "Note",
+        "submit": "Submit"
+    },
+    "form_inf": {
+        "hn": {
             "id": "f_hn",
             "name": "Hà Nội",
             "price": "149000",
@@ -41,23 +55,7 @@
             "note": "",
             "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
         },
-        {
-            "id": "f_hcm",
-            "name": "Ho Cho Minh City",
-            "price": "149000",
-            "disc": {
-                "p1": "Each ticket includes a separate seating/standing area, drink and gift.",
-                "p2": "Buy maximum 04 tickets",
-                "p3": "Transfer money with correct syntax",
-                "p4": "Transfer money immediately before submitting"
-            },
-            "time": "",
-            "address": "",
-            "transfer_syntax": "",
-            "note": "",
-            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
-        },
-        {
+        "dn": {
             "id": "f_dn",
             "name": "Da Nang",
             "price": "149000",
@@ -72,6 +70,22 @@
             "transfer_syntax": "",
             "note": "",
             "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
+        },
+        "sg": {
+            "id": "f_dn",
+            "name": "Sai Gon",
+            "price": "149000",
+            "disc": {
+                "p1": "Each ticket includes a separate seating/standing area, drink and gift.",
+                "p2": "Buy maximum 04 tickets",
+                "p3": "Transfer money with correct syntax",
+                "p4": "Transfer money immediately before submitting"
+            },
+            "time": "",
+            "address": "",
+            "transfer_syntax": "",
+            "note": "",
+            "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
         }
-    ]
+    }
 }

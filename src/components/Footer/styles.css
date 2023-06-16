@@ -5,6 +5,7 @@ footer {
   padding: 20px;
   background-color: var(--speak-now-1);
   color: white;
+  height: var(--footer-height);
 }
 
 footer::before {

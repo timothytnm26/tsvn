@@ -22,10 +22,24 @@
             "p1": "Một Taylor Swift thành thật đến tàn nhẫn là một cô gái như thế nào? Speak Now (Taylor’s Version) là album chất chứa những tuyệt tác do chính bản thân Taylor tự sáng tác trong quá trình trưởng thành. Có lúc thiếu nữ đôi mươi ấy muốn được vươn cao, bay xa; có lúc lại trầm lắng, đăm chiêu đến kỳ lạ.",
             "p2": "Những trang nhật ký này một lần nữa lại được Taylor thuật lại, và những thanh âm cuồng nhiệt của tuổi trẻ đó hẳn sẽ làm lay động trái tim của tất cả chúng ta. Đến với “The Eras Party (Chapter 03)”, chúng ta hãy cùng nhau lắng nghe, phân tích các ca khúc để thấu hiểu cô gái Speak Now nhiều hơn nhé.",
             "p3": "Đối tượng tham gia: Tất cả những bạn luôn yêu thích và ủng hộ Taylor Swift"
-        }
+        },
+        "buy_ticket": "Mua vé"
     },
-    "form_inf0": [
-        {
+    "form": {
+        "name": "Họ và tên",
+        "dob": "Ngày sinh",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "fb_link": "Facebook",
+        "ticket_count": "Số lượng vé mua",
+        "ticket_count_max": 4,
+        "bank_no": "Số tài khoản ngân hàng",
+        "bill_image": "Ảnh chụp màn hình chuyển khoản",
+        "note": "Ghi chú thêm",
+        "submit": "Mua vé"
+    },
+    "form_inf": {
+        "hn": {
             "id": "f_hn",
             "name": "Hà Nội",
             "price": "149000",
@@ -41,9 +55,9 @@
             "note": "",
             "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
         },
-        {
-            "id": "f_hcm",
-            "name": "Hồ Chí Minh",
+        "dn": {
+            "id": "f_dn",
+            "name": "Đà Nẵng",
             "price": "149000",
             "disc": {
                 "p1": "Mỗi vé bao gồm khu vực chỗ ngồi/đứng riêng, nước uống và quà tặng",
@@ -57,9 +71,9 @@
             "note": "",
             "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
         },
-        {
+        "sg": {
             "id": "f_dn",
-            "name": "Hà Nội",
+            "name": "Sài Gòn",
             "price": "149000",
             "disc": {
                 "p1": "Mỗi vé bao gồm khu vực chỗ ngồi/đứng riêng, nước uống và quà tặng",
@@ -73,5 +87,5 @@
             "note": "",
             "confirm_note": "Sau khi nhận chuyển khoản thành công, chúng mình sẽ phản hồi cho bạn trong vòng 72 giờ qua email hoặc số điện thoại. Nếu còn bất cứ thắc mắc nào khác, bạn có thể liên hệ hotline 0379423066 (Mr. Tuan Minh) hoặc fanpage The Eras Party by TSVN (fb.com/erasTSVN) trong trường hợp khẩn cấp.Cảm ơn bạn đã mua vé tham gia sự kiện!"
         }
-    ]
+    }
 }

@@ -19,7 +19,7 @@ export const tabs = [
   },
   {
     title: "SÀI GÒN",
-    id: "hcm",
+    id: "sg",
     icon: <TSVN />,
     color: "var(--speak-now-7)",
     content: TabContent,
@@ -27,9 +27,5 @@ export const tabs = [
 ];
 
 export const Form = () => {
-  return (
-    <Wrapper>
-      <TabComponent tabs={tabs} />
-    </Wrapper>
-  );
+  return <Wrapper>{/* <TabComponent tabs={tabs} /> */}</Wrapper>;
 };
