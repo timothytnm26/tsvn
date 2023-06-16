@@ -140,7 +140,7 @@ export const heroOptions = {
     },
     number: {
       limit: 0,
-      value: 50,
+      value: 30,
     },
 
     opacity: {
@@ -170,7 +170,12 @@ export const heroOptions = {
           height: 100,
           // Adjust the height of the image
         },
-
+        // {
+        //   src: "src/assets/imgs/dragon.svg",
+        //   width: 100, // Adjust the width of the image
+        //   height: 100,
+        //   // Adjust the height of the image
+        // },
         {
           src: "src/assets/imgs/buf0.svg",
           width: 100, // Adjust the width of the image

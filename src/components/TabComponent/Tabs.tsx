@@ -88,10 +88,10 @@ const TabComponent: React.FC<{ tabs: TabProps[]; defaultIndex?: number }> = ({
               className={cn("tab", { active: activeTabIndex === index })}
               role="presentation"
               variants={tabVariant}
-              animate={activeTabIndex === index ? "active" : "inactive"}
+              animate="active"
+              // {activeTabIndex === index ? "active" : "inactive"}
             >
               <a href={`#${tab.id}`} onClick={() => onTabClick(index)}>
-                {tab.icon}
                 <motion.span variants={tabTextVariant}>{tab.title}</motion.span>
               </a>
             </motion.li>

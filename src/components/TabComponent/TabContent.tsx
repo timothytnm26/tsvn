@@ -1,9 +1,10 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
 import cardImage from "./../../assets/imgs/wonderstruckcover.png";
-import { IMAGES } from "../../constants";
+import { IMAGES, TABS } from "../../constants";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { TicketButton } from "./styled";
 export interface TabContentProps {
   id: string;
   active: boolean;
@@ -38,35 +39,6 @@ const cardVariant: Variants = {
   },
 };
 
-const cards = [
-  {
-    key: "hn",
-    title: "Hà Nội",
-    image: [
-      { alt: "view of mountain", src: IMAGES.wonderstruck, desc: "" },
-      { alt: "view of mountain", src: IMAGES.wonderstruck, desc: "" },
-    ],
-    formUrl: "/form_hn",
-  },
-  {
-    key: "dn",
-    title: "Đà Nẵng",
-    image: [
-      { alt: "view of mountain", src: IMAGES.taylorSpeakNow, desc: "" },
-      { alt: "view of mountain", src: IMAGES.wonderstruck, desc: "" },
-    ],
-    formUrl: "form_dn",
-  },
-  {
-    key: "sg",
-    title: "Sài Gòn",
-    image: [
-      { alt: "view of mountain", src: IMAGES.wonderstruck, desc: "" },
-      { alt: "view of mountain", src: IMAGES.wonderstruck, desc: "" },
-    ],
-    formUrl: "/form_sg",
-  },
-];
 const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
   const { t } = useTranslation();
   return (
@@ -79,29 +51,45 @@ const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
       initial="inactive"
     >
       <div className="tab_wrapper">
-        {cards
-          .filter((item) => item.key + "-content" === id)
-          .map((item) => (
-            <div key={item.key} className="cards">
-              {item.image.map((img, i) => {
-                return (
-                  <motion.div
-                    key={i}
-                    variants={cardVariant}
-                    className="content-card"
-                  >
-                    <img key={i} src={img.src} alt={img.alt} />
-                  </motion.div>
-                );
-              })}
-            </div>
-          ))}
-        <NavLink
-          to={cards.filter((item) => item.key + "-content" === id)[0].formUrl}
-          className="ticket-btn"
-        >
-          {t("about_wonderstruck.buy_ticket")}
-        </NavLink>
+        {TABS.filter((item) => item.key + "-content" === id).map((item) => (
+          <div key={item.key} className="cards">
+            {item.image.map((img, i) => {
+              return (
+                <motion.div
+                  key={i}
+                  variants={cardVariant}
+                  className="content-card"
+                >
+                  <img key={i} src={img.src} alt={img.alt} />
+                </motion.div>
+              );
+            })}
+          </div>
+        ))}
+        {TABS.filter((item) => item.key + "-content" === id).map((item) => {
+          return (
+            <a target="_blank" href={item.formUrl} className="ticket-btn">
+              <TicketButton>
+                <img
+                  src={IMAGES.buffterfly0}
+                  alt="blink"
+                  className="blink_buf buf0"
+                />
+                <img
+                  src={IMAGES.buffterfly1}
+                  alt="blink"
+                  className="blink_buf buf1"
+                />
+                <img
+                  src={IMAGES.buffterfly2}
+                  alt="blink"
+                  className="blink_buf buf2"
+                />
+                {t("about_wonderstruck.buy_ticket")}
+              </TicketButton>
+            </a>
+          );
+        })}
       </div>
     </motion.div>
   );

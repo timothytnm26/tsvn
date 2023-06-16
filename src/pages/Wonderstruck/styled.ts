@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 `;
 
 export const About = styled.div`
@@ -34,6 +33,7 @@ export const Script = styled.div`
       "Helvetica Neue", sans-serif;
     text-align: justify;
     font-weight: 300;
+    margin: 10px 0;
   }
 `;
 export const Taylor = styled.div`

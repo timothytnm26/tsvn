@@ -29,7 +29,13 @@ export const Wonderstruck = () => {
           <p>{t("about_wonderstruck.script.p3")}</p>
         </Script>
       </About>
-      <TabComponent tabs={tabs} />
+      <div
+        style={{
+          zIndex: 999,
+        }}
+      >
+        <TabComponent tabs={tabs} />
+      </div>
     </Wrapper>
   );
 };

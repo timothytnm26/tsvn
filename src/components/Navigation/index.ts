@@ -1,6 +1,6 @@
 import styled from "styled-components";
 const NavContainer = styled.nav`
-  z-index: 9;
+  z-index: 999999;
   position: fixed;
   top: 0;
   left: 0;
