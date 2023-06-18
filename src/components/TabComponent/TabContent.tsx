@@ -101,7 +101,7 @@ const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
                   );
                 } else {
                   return (
-                    <NavLink to="/wonderstruck" className="ticket-btn">
+                    <NavLink to="/" className="ticket-btn">
                       <TicketButton>
                         <img
                           src={IMAGES.buffterfly0}

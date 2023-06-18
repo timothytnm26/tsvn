@@ -8,6 +8,18 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { Wonderstruck } from "./pages/Wonderstruck/Wonderstruck";
 import NotFound from "./pages/NotFound/NotFound";
 import TabComponent from "./components/TabComponent/Tabs";
+import styled from "styled-components";
+const Loading = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  color: var(--speak-now-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: GothamMedium;
+`;
 const App = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -16,7 +28,7 @@ const App = () => {
     restDelta: 0.001,
   });
   return (
-    <Suspense fallback="loading">
+    <Suspense fallback={<Loading>hi, i'm Taylor</Loading>}>
       <BrowserRouter>
         <Navigation />
         <motion.div className="progress-bar" style={{ scaleX }} />
