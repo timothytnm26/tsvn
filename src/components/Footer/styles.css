@@ -1,13 +1,20 @@
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: var(--speak-now-1);
+  background-color: transparent;
   color: white;
   height: var(--footer-height);
+  z-index: 9999;
 }
-
+footer span {
+  font-family: GothamMedium !important;
+}
 footer::before {
   display: block;
   content: "";

@@ -6,9 +6,8 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Wonderstruck } from "./pages/Wonderstruck/Wonderstruck";
-import { Form } from "./pages/Forms/Form";
 import NotFound from "./pages/NotFound/NotFound";
-import { FormSaiGon } from "./pages/Forms";
+import TabComponent from "./components/TabComponent/Tabs";
 const App = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -24,12 +23,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/wonderstruck" element={<Wonderstruck />} />
-          <Route path="/form_hn" element={<Form />} />
+          {/* <Route path="/form_hn" element={<Form />} />
           <Route path="/form_dn" element={<Form />} />
-          <Route path="/form_sg" element={<FormSaiGon />} />
+          <Route path="/form_sg" element={<FormSaiGon />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </Suspense>
   );

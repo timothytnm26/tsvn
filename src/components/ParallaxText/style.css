@@ -14,7 +14,7 @@
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
-  gap: 6rem;
+  gap: 2rem;
 }
 
 .parallax span {
@@ -25,6 +25,6 @@
 }
 @media screen and (max-width: 768px) {
   .parallax span {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }

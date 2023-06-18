@@ -27,7 +27,7 @@ const LogoName = styled.span`
   color: white;
   text-shadow: 5px 5px 5px rgba(var(--speak-now-1), 1), 0 0 0 var(--speak-now-1);
   line-height: 1.1;
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 700px) {
     display: none;
   }
 `;

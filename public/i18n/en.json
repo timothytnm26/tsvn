@@ -1,4 +1,15 @@
 {
+    "countdown": "BUY TICKET NOW",
+    "time": {
+        "day": "day",
+        "hour": "hour",
+        "minute": "minute",
+        "second": "second",
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds"
+    },
     "nav": {
         "title": "Taylor Swift VietNam",
         "label": "Select another language!",
@@ -23,7 +34,7 @@
             "p2": "Once again, these diary pages are about to be narrated by Taylor, and our hearts will undoubtedly be touched by the passionate melodies of youth. Come to \"The Eras Party (Chapter 03)\", listen together and analyze the songs to understand our Speak Now girl more.",
             "p3": "Whoever loves and supports Taylor Swift is welcome to attend the event."
         },
-        "buy_ticket": "Buy Ticket"
+        "buy_ticket": "BUY TICKET",
     },
     "form": {
         "name": "Full Name",

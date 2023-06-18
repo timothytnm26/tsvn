@@ -2,29 +2,31 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   padding-top: var(--header-height) !important;
-  background-color: var(--speak-now-1);
-  min-height: 100vh;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  background-color: var(--speak-now-1) !important;
 `;
 
 export const About = styled.div`
-  height: 100vh;
+  z-index: 9;
   display: flex;
-  flex-grow: 1;
-  flex-direction: column;
+  flex-direction: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  padding: 2rem;
+  align-items: flex-start;
+  padding: 0 3rem;
   gap: 2rem;
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
 `;
 export const Script = styled.div`
-  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1000px;
+  color: white;
   p {
     font-size: 1rem !important;
     color: white;

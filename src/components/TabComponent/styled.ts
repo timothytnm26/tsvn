@@ -11,39 +11,15 @@ export const TicketButton = styled.button`
   font-weight: 800;
   border-radius: 0.5rem;
   font-family: GothamMedium;
-  width: 150px;
+  width: 170px;
   border: 2px solid var(--speak-now-5);
   animation: blink 1s infinite;
   cursor: pointer;
   &:hover {
     display: block !important;
-    background-color: var(--speak-now-5);
+    background-color: var(--speak-now-7);
+    color: var(--speak-now-1);
     box-shadow: 0px 0px 10px 2px var(--speak-now-6);
-    .buf0 {
-      top: -50%;
-      right: -20%;
-      width: 50px;
-      height: 50px;
-      transform: scaleX(-1);
-      display: block !important;
-      transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
-    }
-    .buf1 {
-      bottom: -40%;
-      right: 0;
-      width: 40px;
-      height: 40px;
-      display: block !important;
-      transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
-    }
-    .buf2 {
-      top: 0;
-      left: -30%;
-      width: 50px;
-      height: 50px;
-      display: block !important;
-      transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
-    }
   }
   .blink_buf {
     animation: blink 1s infinite;
@@ -60,7 +36,31 @@ export const TicketButton = styled.button`
     width: 10px;
     transform: translate(-50%, -50%);
   }
-
+  .buf0 {
+    top: -100%;
+    right: -20%;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+    display: block !important;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  }
+  .buf1 {
+    bottom: -90%;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: block !important;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  }
+  .buf2 {
+    top: 0;
+    left: -30%;
+    width: 50px;
+    height: 50px;
+    display: block !important;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  }
   @keyframes blink {
     0% {
       scale: 0.8;

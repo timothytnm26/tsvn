@@ -1,4 +1,15 @@
 {
+    "countdown": "MUA VÉ NGAY",
+    "time": {
+        "day": "ngày",
+        "hour": "giờ",
+        "minute": "phút",
+        "second": "giây",
+        "days": "ngày",
+        "hours": "giờ",
+        "minutes": "phút",
+        "seconds": "giây"
+    },
     "nav": {
         "title": "Taylor Swift Việt Nam",
         "label": "Chọn ngôn ngữ!",
@@ -23,7 +34,7 @@
             "p2": "Những trang nhật ký này một lần nữa lại được Taylor thuật lại, và những thanh âm cuồng nhiệt của tuổi trẻ đó hẳn sẽ làm lay động trái tim của tất cả chúng ta. Đến với “The Eras Party (Chapter 03)”, chúng ta hãy cùng nhau lắng nghe, phân tích các ca khúc để thấu hiểu cô gái Speak Now nhiều hơn nhé.",
             "p3": "Đối tượng tham gia: Tất cả những bạn luôn yêu thích và ủng hộ Taylor Swift"
         },
-        "buy_ticket": "Mua vé"
+        "buy_ticket": "MUA VÉ"
     },
     "form": {
         "name": "Họ và tên",
@@ -36,7 +47,7 @@
         "bank_no": "Số tài khoản ngân hàng",
         "bill_image": "Ảnh chụp màn hình chuyển khoản",
         "note": "Ghi chú thêm",
-        "submit": "Mua vé"
+        "submit": "MUA VÉ"
     },
     "form_inf": {
         "hn": {

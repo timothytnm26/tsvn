@@ -1,6 +1,6 @@
 import styled from "styled-components";
 const NavContainer = styled.nav`
-  z-index: 999999;
+  z-index: 9999;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,6 +21,9 @@ const NavContainer = styled.nav`
   -moz-backdrop-filter: blur(10px); */
   font-size: 1em;
   .right {
+    .about {
+      font-family: GothamMedium !important;
+    }
     .wonderstruck {
       font-family: Hertine;
     }

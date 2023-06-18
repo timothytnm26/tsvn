@@ -1,12 +1,29 @@
 import styled from "styled-components";
 import { Home } from "./Home";
+import { IMAGES } from "../../constants";
 export default Home;
 
 export const Container = styled.div`
+  position: relative;
   background-color: var(--speak-now-1);
   h1 {
     color: white;
   }
+  background-blend-mode: lighten;
+  background-image: url(${IMAGES.taylormobile});
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  @media (max-width: 640px) {
+    background-image: url(${IMAGES.taylorSpeakNow});
+    background-position: left bottom;
+  }
+  perspective: 1px;
 `;
 export const ParaWrapper = styled.div`
   display: flex;

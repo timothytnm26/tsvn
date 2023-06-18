@@ -6,6 +6,7 @@ import TSVNLogo from "../TSVNLogo";
 import { HeartSwitch } from "@anatoliygatt/heart-switch";
 import { useEffect, useState } from "react";
 import useViewport from "../../hooks/useViewPort";
+import { HashLink as Link } from "react-router-hash-link";
 
 export const Navigation = () => {
   const [checked, setChecked] = useState(false);
@@ -19,15 +20,17 @@ export const Navigation = () => {
   return (
     <NavContainer>
       <div className="left">
-        <NavLink to="/">
+        <Link to="/#home">
           <TSVNLogo />
-        </NavLink>
+        </Link>
       </div>
       <div className="right">
-        <a href="/#about">{t("nav.about")}</a>
-        <NavLink className="wonderstruck" to="/wonderstruck">
+        <Link className="about" to="/#about">
+          {t("nav.about")}
+        </Link>
+        <Link className="wonderstruck" to="/wonderstruck/#chapter3">
           {t("nav.wonderstruck")}
-        </NavLink>
+        </Link>
         <HeartSwitch
           size={isMobile ? "sm" : "md"}
           inactiveTrackFillColor="var(--speak-now-4)"

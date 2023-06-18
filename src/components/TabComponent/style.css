@@ -1,11 +1,3 @@
-@media screen and (min-width: 768px) {
-  .tabs-component {
-    padding-top: var(--header-height) !important;
-  }
-  .cards {
-    flex-direction: row !important;
-  }
-}
 img {
   max-width: 100%;
 }
@@ -15,9 +7,8 @@ img {
   padding: 0 30px;
 }
 .tabs-component {
-  padding-top: var(--header-height-mobile);
   border-radius: 1rem;
-  margin-top: 3rem;
+  padding-top: var(--header-height);
 }
 .tab-links {
   padding: 0;
@@ -25,43 +16,71 @@ img {
   list-style: none;
   display: flex;
   max-width: 600px;
-  height: 50px;
+  height: 100px;
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 1240px) {
+  .tab_wrapper {
+    padding: 0 2rem !important;
+  }
+}
+@media (max-width: 500px) {
+  .tab span {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 678px) {
+  .tab_wrapper {
+    padding: 0 0.1rem !important;
+  }
+  .tab-links {
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tab {
+    height: 40px;
+    width: auto;
+  }
+  .tab.active span {
+    font-size: 1.1rem !important;
+  }
+
+  .tab span {
+    width: fit-content;
+  }
+}
 .tab {
   position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .tab a {
   text-decoration: none;
   overflow: hidden;
 }
-
+.tab.active span {
+  font-size: 1.5rem;
+}
 .tab::before {
   content: "";
   width: 100%;
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.5;
   position: absolute;
   border-radius: 0.8rem;
   background: none;
   transition: background 0.5s ease;
 }
 
-/* .tab svg {
-  height: 30px;
-  width: 30px;
-  min-width: 30px;
-  fill: var(--black);
-  transition: fill 0.5s ease;
-} */
-
 .tab.active::before {
-  background: var(--speak-now-4);
+  background-color: var(--speak-now-6);
 }
 
 .tab span {
-  width: 100%;
   font-weight: 700;
   transition: color 0.5s ease;
   font-size: 1rem;
@@ -91,9 +110,9 @@ img {
 .cards {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   padding: 10px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
 }
@@ -102,6 +121,7 @@ img {
 }
 .content-card {
   width: 100%;
+  max-width: 600px;
 }
 
 .content-card .info::after {
@@ -128,14 +148,18 @@ img {
 .ticket-btn {
   color: white;
   text-decoration: none;
-  font-size: large;
   font-family: monospace;
+  margin: 2rem;
+  text-transform: uppercase !important;
 }
 
 .tab_wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 5rem;
   gap: 1rem;
+  flex-wrap: wrap;
 }

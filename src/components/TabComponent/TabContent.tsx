@@ -5,6 +5,10 @@ import { IMAGES, TABS } from "../../constants";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { TicketButton } from "./styled";
+import { Slide } from "../Slide/Slide";
+import { TIMEOUT } from "../../pages/Home/HomeBanner";
+import Countdown from "react-countdown";
+
 export interface TabContentProps {
   id: string;
   active: boolean;
@@ -52,44 +56,81 @@ const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
     >
       <div className="tab_wrapper">
         {TABS.filter((item) => item.key + "-content" === id).map((item) => (
-          <div key={item.key} className="cards">
-            {item.image.map((img, i) => {
-              return (
-                <motion.div
-                  key={i}
-                  variants={cardVariant}
-                  className="content-card"
-                >
-                  <img key={i} src={img.src} alt={img.alt} />
-                </motion.div>
-              );
-            })}
-          </div>
+          <>
+            <div key={item.key} className="cards">
+              {item.image.map((img, i) => {
+                return (
+                  <motion.div
+                    key={i}
+                    variants={cardVariant}
+                    className="content-card"
+                  >
+                    <img key={i} src={img.src} alt={img.alt} />
+                  </motion.div>
+                );
+              })}
+            </div>
+            <Countdown
+              date={TIMEOUT}
+              renderer={({ hours, minutes, seconds, completed }) => {
+                if (completed) {
+                  return (
+                    <a
+                      target="_blank"
+                      href={item.formUrl}
+                      className="ticket-btn"
+                    >
+                      <TicketButton>
+                        <img
+                          src={IMAGES.buffterfly0}
+                          alt="blink"
+                          className="blink_buf buf0"
+                        />
+                        <img
+                          src={IMAGES.buffterfly1}
+                          alt="blink"
+                          className="blink_buf buf1"
+                        />
+                        <img
+                          src={IMAGES.buffterfly2}
+                          alt="blink"
+                          className="blink_buf buf2"
+                        />
+                        {`${t("about_wonderstruck.buy_ticket")} ${item.title}`}
+                      </TicketButton>
+                    </a>
+                  );
+                } else {
+                  return (
+                    <a href="/wonderstruck" className="ticket-btn">
+                      <TicketButton>
+                        <img
+                          src={IMAGES.buffterfly0}
+                          alt="blink"
+                          className="blink_buf buf0"
+                        />
+                        <img
+                          src={IMAGES.buffterfly1}
+                          alt="blink"
+                          className="blink_buf buf1"
+                        />
+                        <img
+                          src={IMAGES.buffterfly2}
+                          alt="blink"
+                          className="blink_buf buf2"
+                        />
+                        {hours}:{minutes}:{seconds}
+                      </TicketButton>
+                    </a>
+                  );
+                }
+              }}
+            />{" "}
+            {/* <div className="example-container">
+              <Slide images={item.preImages} />
+            </div> */}
+          </>
         ))}
-        {TABS.filter((item) => item.key + "-content" === id).map((item) => {
-          return (
-            <a target="_blank" href={item.formUrl} className="ticket-btn">
-              <TicketButton>
-                <img
-                  src={IMAGES.buffterfly0}
-                  alt="blink"
-                  className="blink_buf buf0"
-                />
-                <img
-                  src={IMAGES.buffterfly1}
-                  alt="blink"
-                  className="blink_buf buf1"
-                />
-                <img
-                  src={IMAGES.buffterfly2}
-                  alt="blink"
-                  className="blink_buf buf2"
-                />
-                {t("about_wonderstruck.buy_ticket")}
-              </TicketButton>
-            </a>
-          );
-        })}
       </div>
     </motion.div>
   );
