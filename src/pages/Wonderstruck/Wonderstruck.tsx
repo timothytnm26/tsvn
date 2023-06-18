@@ -31,7 +31,8 @@ const Wonderstruck = () => {
           {" "}
           <Chapter3>
             <div className="speakNow">
-              <img src={speakNowTV} />
+              <div className="sn">Speak Now</div>
+              <div className="tv">TAYLOR'S VERSION</div>
             </div>
             <div className="listen">Listening Party</div>
             <div className="wonderstruck">Wonderstruck</div>
