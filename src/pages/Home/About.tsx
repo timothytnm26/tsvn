@@ -3,8 +3,6 @@ import { useTranslation } from "react-i18next";
 import styled from "@emotion/styled";
 import { Variants, motion } from "framer-motion";
 import { Wrapper } from "./Home";
-import { SLIDE } from "../../constants";
-import { Slide } from "../../components/Slide/Slide";
 const AboutScript = styled.div`
   color: white;
   padding: 3rem;
@@ -81,9 +79,6 @@ export const About = () => {
           </motion.div>
         </motion.div>
       </AboutScript>
-      {/* <div className="example-container">
-        <Slide images={SLIDE} />
-      </div> */}
     </Wrapper>
   );
 };

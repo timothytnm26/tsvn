@@ -1,14 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { About, Script, Taylor, WonderstruckImg, Wrapper } from "./styled";
+import { About, Script, Taylor, Wrapper } from "./styled";
 import TabComponent from "../../components/TabComponent/Tabs";
 import { tabs } from "../Forms/Form";
 import speakNowTV from "./../../assets/SNTV.png";
-import {
-  dragonOptions,
-  heroOptions,
-} from "../../components/Particles/particlesOptions";
+import { heroOptions } from "../../components/Particles/particlesOptions";
 import ParticlesComponent from "../../components/Particles/ParticlesComponent";
-import { IMAGES } from "../../constants";
 import Footer from "../../components/Footer";
 import Player from "./Player";
 import { Chapter3 } from "../Home/HomeBanner";

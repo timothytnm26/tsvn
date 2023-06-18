@@ -5,7 +5,6 @@ import { IMAGES, TABS } from "../../constants";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { TicketButton } from "./styled";
-import { Slide } from "../Slide/Slide";
 import { TIMEOUT } from "../../pages/Home/HomeBanner";
 import Countdown from "react-countdown";
 
@@ -126,9 +125,6 @@ const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
                 }
               }}
             />{" "}
-            {/* <div className="example-container">
-              <Slide images={item.preImages} />
-            </div> */}
           </>
         ))}
       </div>

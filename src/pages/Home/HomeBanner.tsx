@@ -8,7 +8,6 @@ import Countdown from "react-countdown";
 import { useTranslation } from "react-i18next";
 import { TicketButton } from "../../components/TabComponent/styled";
 import { NavLink } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
 export const TIMEOUT = 1687093200000;
 import speakNowTV from "./../../assets/SNTV.png";
 const Wrapper = styled.div`
@@ -160,7 +159,7 @@ export const HomeBanner = () => {
               if (completed) {
                 return (
                   <CountdownRender className="ticket-btn">
-                    <Link to={"/wonderstruck#tickets"}>
+                    <NavLink to={"/wonderstruck#tickets"}>
                       <TicketButton
                         style={{
                           zIndex: "99999 !important",
@@ -183,7 +182,7 @@ export const HomeBanner = () => {
                         />
                         {t("countdown")}
                       </TicketButton>
-                    </Link>
+                    </NavLink>
                   </CountdownRender>
                 );
               } else {

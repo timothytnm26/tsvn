@@ -1,12 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-import { LANGUAGES } from "../../constants";
 import { NavContainer } from ".";
 import TSVNLogo from "../TSVNLogo";
 import { HeartSwitch } from "@anatoliygatt/heart-switch";
 import { useEffect, useState } from "react";
 import useViewport from "../../hooks/useViewPort";
-import { HashLink as Link } from "react-router-hash-link";
 
 export const Navigation = () => {
   const [checked, setChecked] = useState(false);
@@ -20,17 +18,17 @@ export const Navigation = () => {
   return (
     <NavContainer>
       <div className="left">
-        <Link to="/#home">
+        <NavLink to="/#home">
           <TSVNLogo />
-        </Link>
+        </NavLink>
       </div>
       <div className="right">
-        <Link className="about" to="/#about">
+        <NavLink className="about" to="/#about">
           {t("nav.about")}
-        </Link>
-        <Link className="wonderstruck" to="/wonderstruck/#chapter3">
+        </NavLink>
+        <NavLink className="wonderstruck" to="/wonderstruck/#chapter3">
           {t("nav.wonderstruck")}
-        </Link>
+        </NavLink>
         <HeartSwitch
           size={isMobile ? "sm" : "md"}
           inactiveTrackFillColor="var(--speak-now-4)"
