@@ -19,7 +19,12 @@ export const Wonderstruck = () => {
         particlesOptions={heroOptions}
       />
       <About>
-        <Taylor className="right">
+        <Taylor
+          className="right"
+          style={{
+            zIndex: "99999",
+          }}
+        >
           <Player />
         </Taylor>
         <Script className="left">
