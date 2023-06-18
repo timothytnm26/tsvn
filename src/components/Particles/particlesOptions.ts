@@ -165,7 +165,7 @@ export const heroOptions = {
       type: "images",
       images: [
         {
-          src: "src/assets/imgs/sp2.svg",
+          src: "sp2.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
