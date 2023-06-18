@@ -12,6 +12,7 @@
     "@anatoliygatt/heart-switch": "^1.0.13",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@vercel/analytics": "^1.0.1",
     "classnames": "^2.3.2",
     "framer-motion": "^10.12.16",
     "i18next": "22.4.9",
