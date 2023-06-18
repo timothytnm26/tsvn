@@ -70,7 +70,7 @@ const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
               })}
             </div>
             <Countdown
-              date={1}
+              date={TIMEOUT}
               renderer={({ hours, minutes, seconds, completed }) => {
                 if (completed) {
                   return (
