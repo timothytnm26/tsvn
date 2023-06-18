@@ -75,10 +75,9 @@ h2 {
   src: local("PistilliRoman"),
     url("./fonts/PistilliRoman.otf") format("truetype");
 }
-@font-face{
+@font-face {
   font-family: "GothamMedium";
-  src: local("GothamMedium"),
-    url("./fonts/GothamMedium.otf") format("truetype");
+  src: local("GothamMedium"), url("./fonts/GothamMedium.otf") format("truetype");
 }
 
 .progress-bar {
@@ -87,7 +86,7 @@ h2 {
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--speak-now-5);
+  background: white;
   transform-origin: 0%;
   z-index: 10;
 }

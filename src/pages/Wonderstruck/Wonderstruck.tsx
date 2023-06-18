@@ -42,6 +42,7 @@ export const Wonderstruck = () => {
           zIndex: 999,
           paddingBottom: "50px",
           marginBottom: "var(--footer-height)",
+          pointerEvents: "none",
         }}
       >
         <TabComponent tabs={tabs} />

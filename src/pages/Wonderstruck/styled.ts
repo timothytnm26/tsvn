@@ -12,7 +12,6 @@ export const Wrapper = styled.div`
 `;
 
 export const About = styled.div`
-  z-index: 9;
   display: flex;
   flex-direction: flex;
   flex-wrap: wrap;

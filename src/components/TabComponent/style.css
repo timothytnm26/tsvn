@@ -19,6 +19,7 @@ img {
   height: 100px;
   justify-content: space-between;
   align-items: center;
+  pointer-events: all;
 }
 @media (max-width: 1240px) {
   .tab_wrapper {
