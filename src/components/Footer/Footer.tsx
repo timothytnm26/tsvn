@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./styles.css";
-import { FB, IG } from "./Icons";
+import { FB, IG, TikTok } from "./Icons";
 const Social = styled.div`
   display: flex;
   justify-content: space-around;
@@ -17,6 +17,9 @@ export function Footer() {
         </a>
         <a href="https://www.instagram.com/taylor.vietnam/" target="_blank">
           <IG />
+        </a>
+        <a href="https://www.tiktok.com/@tsvn13" target="_blank">
+          <TikTok />
         </a>
       </Social>
     </footer>
