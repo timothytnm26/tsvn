@@ -1,14 +1,14 @@
+import { lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import { Suspense } from "react";
 import Navigation from "./components/Navigation";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
+const Home = lazy(() => import("./pages/Home"));
+import Typewriter from "typewriter-effect";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { Wonderstruck } from "./pages/Wonderstruck/Wonderstruck";
+import Wonderstruck from "./pages/Wonderstruck/Wonderstruck";
 import NotFound from "./pages/NotFound/NotFound";
-import TabComponent from "./components/TabComponent/Tabs";
 import styled from "styled-components";
+
 const Loading = styled.div`
   width: 100vw;
   height: 100vh;
@@ -28,7 +28,7 @@ const App = () => {
     restDelta: 0.001,
   });
   return (
-    <Suspense fallback={<Loading>hi, i'm Taylor</Loading>}>
+    <Suspense fallback={<Loading>Hi, I'm Taylor</Loading>}>
       <BrowserRouter>
         <Navigation />
         <motion.div className="progress-bar" style={{ scaleX }} />

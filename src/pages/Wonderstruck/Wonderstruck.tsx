@@ -9,7 +9,7 @@ import Footer from "../../components/Footer";
 import Player from "./Player";
 import { Chapter3 } from "../Home/HomeBanner";
 
-export const Wonderstruck = () => {
+const Wonderstruck = () => {
   const { t } = useTranslation();
   return (
     <Wrapper className="wonderstruck" id="chapter3">
@@ -56,3 +56,4 @@ export const Wonderstruck = () => {
     </Wrapper>
   );
 };
+export default Wonderstruck;
