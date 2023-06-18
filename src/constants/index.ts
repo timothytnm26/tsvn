@@ -19,23 +19,23 @@ import dn4 from "../assets/imgs/dn4.png";
 import dragon2 from "../assets/imgs/dragon2.svg";
 import hn1 from "../assets/imgs/HN3.png";
 import hn2 from "../assets/imgs/HN4.png";
-import tep11 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (1).jpg";
-import tep12 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (2).jpg";
-import tep13 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (3).jpg";
-import tep21 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (1).jpg";
-import tep22 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (2).jpg";
-import tep23 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (3).jpg";
-import tep24 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (4).jpg";
-import tep25 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (5).jpg";
-import tep26 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (6).jpg";
-import tep27 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (7).jpg";
-import decade1 from "../assets/imgs/slides/TSVN 2019_ Offline of the Decade (1).jpg";
-import decade2 from "../assets/imgs/slides/TSVN 2019_ Offline of the Decade (2).jpg";
-import glow1 from "../assets/imgs/slides/TSVN Offline 2022_ Glowing In The Dark (1).jpg";
-import glow2 from "../assets/imgs/slides/TSVN Offline 2022_ Glowing In The Dark (2).jpg";
-import mid1 from "../assets/imgs/slides/TSVN Secret Session 2022_ Midnights Listening Party (1).jpg";
-import mid2 from "../assets/imgs/slides/TSVN Secret Session 2022_ Midnights Listening Party (1).jpg";
-import mid3 from "../assets/imgs/slides/TSVN Secret Session 2022_ Midnights Listening Party (1).jpg";
+// import tep11 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (1).jpg";
+// import tep12 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (2).jpg";
+// import tep13 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (3).jpg";
+// import tep21 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (1).jpg";
+// import tep22 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (2).jpg";
+// import tep23 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (3).jpg";
+// import tep24 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (4).jpg";
+// import tep25 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (5).jpg";
+// import tep26 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (6).jpg";
+// import tep27 from "../assets/imgs/slides/The Eras Party (Chapter 02)_ Kaleidoscope (7).jpg";
+// import decade1 from "../assets/imgs/slides/TSVN 2019_ Offline of the Decade (1).jpg";
+// import decade2 from "../assets/imgs/slides/TSVN 2019_ Offline of the Decade (2).jpg";
+// import glow1 from "../assets/imgs/slides/TSVN Offline 2022_ Glowing In The Dark (1).jpg";
+// import glow2 from "../assets/imgs/slides/TSVN Offline 2022_ Glowing In The Dark (2).jpg";
+// import mid1 from "../assets/imgs/slides/TSVN Secret Session 2022_ Midnights Listening Party (1).jpg";
+// import mid2 from "../assets/imgs/slides/TSVN Secret Session 2022_ Midnights Listening Party (1).jpg";
+// import mid3 from "../assets/imgs/slides/TSVN Secret Session 2022_ Midnights Listening Party (1).jpg";
 
 export const IMAGES = {
   tsvn: tsvn,
@@ -59,23 +59,23 @@ export const IMAGES = {
   hn2: hn2,
   taylormobile: taylormobile,
   dragon2: dragon2,
-  tep11: tep11,
-  tep12: tep12,
-  tep13: tep13,
-  tep21: tep21,
-  tep22: tep22,
-  tep23: tep23,
-  tep24: tep24,
-  tep25: tep25,
-  tep26: tep26,
-  tep27: tep27,
-  decade1: decade1,
-  decade2: decade2,
-  glow1: glow1,
-  glow2: glow2,
-  mid1: mid1,
-  mid2: mid2,
-  mid3: mid3,
+  // tep11: tep11,
+  // tep12: tep12,
+  // tep13: tep13,
+  // tep21: tep21,
+  // tep22: tep22,
+  // tep23: tep23,
+  // tep24: tep24,
+  // tep25: tep25,
+  // tep26: tep26,
+  // tep27: tep27,
+  // decade1: decade1,
+  // decade2: decade2,
+  // glow1: glow1,
+  // glow2: glow2,
+  // mid1: mid1,
+  // mid2: mid2,
+  // mid3: mid3,
 };
 export const LANGUAGES = [
   { label: "Tiếng Việt", code: "vn" },
@@ -175,73 +175,73 @@ export const TABS = [
   },
 ];
 
-export const SLIDE = [
-  {
-    src: `${decade1}`,
-    desc: "TSVN 2019_ Offline of the Decade",
-  },
-  {
-    src: `${decade2}`,
-    desc: "TSVN 2019_ Offline of the Decade",
-  },
-  {
-    src: `${glow1}`,
-    desc: "TSVN Offline 2022_ Glowing In The Dark",
-  },
-  {
-    src: `${glow2}`,
-    desc: "TSVN Offline 2022_ Glowing In The Dark",
-  },
-  {
-    src: `${mid1}`,
-    desc: "TSVN Secret Session 2022_ Midnights Listening Party",
-  },
-  {
-    src: `${mid2}`,
-    desc: "TSVN Secret Session 2022_ Midnights Listening Party",
-  },
-  {
-    src: `${mid3}`,
-    desc: "TSVN Secret Session 2022_ Midnights Listening Party",
-  },
-  {
-    src: `${tep11}`,
-    desc: "The Eras Party (Chapter 01)_ Screaming In Vain",
-  },
-  {
-    src: `${tep12}`,
-    desc: "The Eras Party (Chapter 01)_ Screaming In Vain",
-  },
-  {
-    src: `${tep13}`,
-    desc: "The Eras Party (Chapter 01)_ Screaming In Vain",
-  },
-  {
-    src: `${tep21}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-  {
-    src: `${tep22}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-  {
-    src: `${tep23}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-  {
-    src: `${tep24}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-  {
-    src: `${tep25}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-  {
-    src: `${tep26}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-  {
-    src: `${tep27}`,
-    desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
-  },
-];
+// export const SLIDE = [
+//   {
+//     src: `${decade1}`,
+//     desc: "TSVN 2019_ Offline of the Decade",
+//   },
+//   {
+//     src: `${decade2}`,
+//     desc: "TSVN 2019_ Offline of the Decade",
+//   },
+//   {
+//     src: `${glow1}`,
+//     desc: "TSVN Offline 2022_ Glowing In The Dark",
+//   },
+//   {
+//     src: `${glow2}`,
+//     desc: "TSVN Offline 2022_ Glowing In The Dark",
+//   },
+//   {
+//     src: `${mid1}`,
+//     desc: "TSVN Secret Session 2022_ Midnights Listening Party",
+//   },
+//   {
+//     src: `${mid2}`,
+//     desc: "TSVN Secret Session 2022_ Midnights Listening Party",
+//   },
+//   {
+//     src: `${mid3}`,
+//     desc: "TSVN Secret Session 2022_ Midnights Listening Party",
+//   },
+//   {
+//     src: `${tep11}`,
+//     desc: "The Eras Party (Chapter 01)_ Screaming In Vain",
+//   },
+//   {
+//     src: `${tep12}`,
+//     desc: "The Eras Party (Chapter 01)_ Screaming In Vain",
+//   },
+//   {
+//     src: `${tep13}`,
+//     desc: "The Eras Party (Chapter 01)_ Screaming In Vain",
+//   },
+//   {
+//     src: `${tep21}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+//   {
+//     src: `${tep22}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+//   {
+//     src: `${tep23}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+//   {
+//     src: `${tep24}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+//   {
+//     src: `${tep25}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+//   {
+//     src: `${tep26}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+//   {
+//     src: `${tep27}`,
+//     desc: "The Eras Party (Chapter 02)_ Kaleidoscope",
+//   },
+// ];
