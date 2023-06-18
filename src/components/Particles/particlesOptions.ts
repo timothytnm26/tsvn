@@ -177,37 +177,37 @@ export const heroOptions = {
         //   // Adjust the height of the image
         // },
         {
-          src: "src/assets/imgs/buf0.svg",
+          src: "buf0.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
         },
         {
-          src: "src/assets/imgs/buf1.svg",
+          src: "buf1.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
         },
         {
-          src: "src/assets/imgs/buf2.svg",
+          src: "buf2.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
         },
         {
-          src: "src/assets/imgs/buf3.svg",
+          src: "buf3.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
         },
         {
-          src: "src/assets/imgs/buf4.svg",
+          src: "buf4.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
         },
         {
-          src: "src/assets/imgs/buf5.svg",
+          src: "buf5.svg",
           width: 100, // Adjust the width of the image
           height: 100,
           // Adjust the height of the image
