@@ -152,6 +152,7 @@ img {
   font-family: monospace;
   margin: 2rem;
   text-transform: uppercase !important;
+  pointer-events: all;
 }
 
 .tab_wrapper {

@@ -93,6 +93,22 @@ export const Chapter3 = styled.div`
   }
   .speakNow {
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .sn {
+      font-family: Hertine;
+      font-size: 5rem;
+      color: var(--speak-now-6);
+    }
+    .tv {
+      transform: translateY(-25%);
+      font-size: 1.5rem;
+      letter-spacing: 0.7rem;
+      font-family: CarlaSansRegular;
+      color: var(--speak-now-4);
+    }
   }
   .listen,
   span {
@@ -114,6 +130,13 @@ export const Chapter3 = styled.div`
   }
   @media (max-width: 850px) {
     justify-content: center;
+    .sn {
+      font-size: 4rem !important;
+    }
+    .tv {
+      font-size: 1.2rem !important;
+      letter-spacing: 0.5rem !important;
+    }
   }
   @media (max-width: 550px) {
     .wonderstruck {
@@ -121,11 +144,25 @@ export const Chapter3 = styled.div`
     }
     .speakNow {
       max-width: 400px !important;
+      .sn {
+        font-size: 3rem !important;
+      }
+      .tv {
+        font-size: 1.1rem !important;
+        letter-spacing: 0.4rem !important;
+      }
     }
     .listen,
     span {
       font-size: 25px;
       font-family: CarlaSansRegular;
+    }
+  }
+  @media (max-width: 550px) {
+    .speakNow {
+      .sn {
+        font-size: 2.7rem !important;
+      }
     }
   }
 `;
@@ -149,7 +186,8 @@ export const HomeBanner = () => {
 
       <Chapter3>
         <div className="speakNow">
-          <img src={speakNowTV} />
+          <div className="sn">Speak Now</div>
+          <div className="tv">TAYLOR'S VERSION</div>
         </div>
         <div className="listen">Listening Party</div>
         <CountDownWrapper>
