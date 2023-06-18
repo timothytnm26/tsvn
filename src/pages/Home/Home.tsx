@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Container, ParaWrapper } from ".";
 import ParallaxText from "../../components/ParallaxText";
-import { Wonderstruck } from "../Wonderstruck/Wonderstruck";
 import { About } from "./About";
 import { HomeBanner, TIMEOUT } from "./HomeBanner";
 import ParticlesComponent from "../../components/Particles/ParticlesComponent";
