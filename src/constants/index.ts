@@ -134,6 +134,7 @@ export const TABS = [
     ],
     formUrl:
       "https://docs.google.com/forms/d/e/1FAIpQLSfsdP4AelxFYlel3Wwck1oQH2HPbRW3-in-fWZis1u5WZegzg/viewform?usp=sf_link",
+    soldOut: false,
   },
   {
     key: "dn",
@@ -156,6 +157,7 @@ export const TABS = [
     ],
     formUrl:
       "https://docs.google.com/forms/d/e/1FAIpQLSeWCJ3ccL-PYwTDAobN1VgDL76Yg6zoUsGxLhPU2xgPuOzV-Q/viewform?usp=sf_link",
+    soldOut: false,
   },
   {
     key: "sg",
@@ -178,6 +180,7 @@ export const TABS = [
     ],
     formUrl:
       "https://docs.google.com/forms/d/e/1FAIpQLSetLCl8O1g8HNQaGBX4EoS8G_lSO6kxUN6GtP0vdTfsJC354Q/viewform?usp=sf_link",
+    soldOut: true,
   },
 ];
 

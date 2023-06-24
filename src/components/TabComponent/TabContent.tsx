@@ -78,24 +78,50 @@ const TabContent: React.FC<TabContentProps> = ({ id, active }) => {
                       target="_blank"
                       href={item.formUrl}
                       className="ticket-btn"
+                      aria-disabled={item.soldOut}
                     >
-                      <TicketButton>
-                        <img
-                          src={IMAGES.buffterfly0}
-                          alt="blink"
-                          className="blink_buf buf0"
-                        />
-                        <img
-                          src={IMAGES.buffterfly1}
-                          alt="blink"
-                          className="blink_buf buf1"
-                        />
-                        <img
-                          src={IMAGES.buffterfly2}
-                          alt="blink"
-                          className="blink_buf buf2"
-                        />
-                        {`${t("about_wonderstruck.buy_ticket")} ${item.title}`}
+                      <TicketButton
+                        disabled={item.soldOut}
+                        style={{
+                          animation: item.soldOut
+                            ? "none"
+                            : "blink 1s linear infinite",
+                          backgroundColor: item.soldOut
+                            ? "var(--speak-now-1)"
+                            : "",
+                          boxShadow: item.soldOut ? "none" : "",
+                          color: item.soldOut ? "var(--speak-now-5)" : "",
+                          cursor: item.soldOut ? "not-allowed" : "",
+                        }}
+                      >
+                        {
+                          <>
+                            {!item.soldOut && (
+                              <>
+                                <img
+                                  src={IMAGES.buffterfly0}
+                                  alt="blink"
+                                  className="blink_buf buf0"
+                                />
+                                <img
+                                  src={IMAGES.buffterfly1}
+                                  alt="blink"
+                                  className="blink_buf buf1"
+                                />
+                                <img
+                                  src={IMAGES.buffterfly2}
+                                  alt="blink"
+                                  className="blink_buf buf2"
+                                />
+                              </>
+                            )}
+                          </>
+                        }
+                        {item.soldOut
+                          ? t("about_wonderstruck.sold_out")
+                          : `${t("about_wonderstruck.buy_ticket")} ${
+                              item.title
+                            }`}
                       </TicketButton>
                     </a>
                   );

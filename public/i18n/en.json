@@ -34,7 +34,8 @@
             "p2": "Once again, these diary pages are about to be narrated by Taylor, and our hearts will undoubtedly be touched by the passionate melodies of youth. Come to \"The Eras Party (Chapter 03)\", listen together and analyze the songs to understand our Speak Now girl more.",
             "p3": "Whoever loves and supports Taylor Swift is welcome to attend the event."
         },
-        "buy_ticket": "BUY TICKET"
+        "buy_ticket": "BUY TICKET",
+        "sold_out": "SOLD OUT"
     },
     "form": {
         "name": "Full Name",
