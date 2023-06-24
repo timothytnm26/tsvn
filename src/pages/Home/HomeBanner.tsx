@@ -8,8 +8,9 @@ import Countdown from "react-countdown";
 import { useTranslation } from "react-i18next";
 import { TicketButton } from "../../components/TabComponent/styled";
 import { NavLink } from "react-router-dom";
-export const TIMEOUT = 1687093200000;
 import speakNowTV from "./../../assets/SNTV.png";
+
+export const TIMEOUT = 1687093200000;
 const Wrapper = styled.div`
   z-index: 9999 !important;
   position: relative;

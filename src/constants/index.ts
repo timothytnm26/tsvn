@@ -17,8 +17,10 @@ import dn2 from "../assets/imgs/dn2.png";
 import dn3 from "../assets/imgs/dn3.png";
 import dn4 from "../assets/imgs/dn4.png";
 import dragon2 from "../assets/imgs/dragon2.svg";
-import hn1 from "../assets/imgs/HN3.png";
-import hn2 from "../assets/imgs/HN4.png";
+import hn1 from "../assets/imgs/DIADIEMCHAP3HN1.png";
+import hn2 from "../assets/imgs/DIADIEMCHAP3HN2.png";
+import hn3 from "../assets/imgs/DIADIEMCHAP3HN3.png";
+import hn4 from "../assets/imgs/DIADIEMCHAP3HN4.png";
 // import tep11 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (1).jpg";
 // import tep12 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (2).jpg";
 // import tep13 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (3).jpg";
@@ -57,6 +59,8 @@ export const IMAGES = {
   dn4: dn4,
   hn1: hn1,
   hn2: hn2,
+  hn3: hn3,
+  hn4: hn4,
   taylormobile: taylormobile,
   dragon2: dragon2,
   // tep11: tep11,
@@ -115,6 +119,8 @@ export const TABS = [
     image: [
       { alt: "HA NOI", src: IMAGES.hn1, desc: "" },
       { alt: "HA NOI", src: IMAGES.hn2, desc: "" },
+      { alt: "HA NOI", src: IMAGES.hn3, desc: "" },
+      { alt: "HA NOI", src: IMAGES.hn4, desc: "" },
     ],
     preImages: [
       {
