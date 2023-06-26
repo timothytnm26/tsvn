@@ -8,7 +8,6 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import Wonderstruck from "./pages/Wonderstruck/Wonderstruck";
 import NotFound from "./pages/NotFound/NotFound";
 import styled from "styled-components";
-import { Analytics } from "@vercel/analytics/react";
 const Loading = styled.div`
   width: 100vw;
   height: 100vh;
@@ -41,7 +40,6 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      <Analytics />
     </Suspense>
   );
 };
