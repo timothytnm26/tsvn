@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
     justify-content: flex-start;
   }
 `;
-export const Home = () => {
+const Home = () => {
   const { t } = useTranslation();
   return (
     <Container id="home">
@@ -47,3 +47,4 @@ export const Home = () => {
     </Container>
   );
 };
+export default Home;

@@ -2,10 +2,10 @@ import { lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense } from "react";
 import Navigation from "./components/Navigation";
-const Home = lazy(() => import("./pages/Home"));
-import Typewriter from "typewriter-effect";
+import Home from "./pages/Home/Home";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Wonderstruck from "./pages/Wonderstruck/Wonderstruck";
+import WonderstruckCheckIn from "./pages/Check-ins/WonderstruckCheckin";
 import NotFound from "./pages/NotFound/NotFound";
 import styled from "styled-components";
 const Loading = styled.div`
@@ -34,6 +34,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/wonderstruck" element={<Wonderstruck />} />
+          <Route path="/checkIn_sg" element={<WonderstruckCheckIn />} />
           {/* <Route path="/form_hn" element={<Form />} />
           <Route path="/form_dn" element={<Form />} />
           <Route path="/form_sg" element={<FormSaiGon />} /> */}

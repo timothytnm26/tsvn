@@ -1,7 +1,5 @@
 import styled from "styled-components";
-import { Home } from "./Home";
 import { IMAGES } from "../../constants";
-export default Home;
 
 export const Container = styled.div`
   position: relative;
