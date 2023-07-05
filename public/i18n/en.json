@@ -21,6 +21,14 @@
     "home": {
         "title": "Taylor Swift Vietnam"
     },
+    "check-in": {
+        "code-input": "Type your code here",
+        "check-in": "Check in",
+        "welcome": "We were enchanted to me you! ",
+        "name": "Name: ",
+        "ticket": "Code: ",
+        "count-check-in": "Number of check-in: "
+    },
     "about": {
         "script": {
             "p1": "Compared to our international friends with dedicated and professional fan clubs and organisations, our Vietnamese Swifties don’t have a dedicated and centralized platform to interact with each other and to share our love for Taylor. Many international websites and forums for international Swifties exist, however due to geographical limits and language barriers, we find it difficult to participate; to alleviate the problem, groups and clans of Vietnamese Swifties emerge on various platforms, however the small size and lack of professional management prevents us from uniting our efforts into one cohesive community.",

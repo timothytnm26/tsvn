@@ -21,6 +21,14 @@
     "home": {
         "title": "Taylor Swift Việt Nam"
     },
+    "check-in": {
+        "code-input": "Nhập mã vé của bạn",
+        "check-in": "Điểm danh",
+        "welcome": "We were enchanted to me you! ",
+        "name": "Họ tên: ",
+        "ticket": "Mã vé: ",
+        "count-check-in": "Số lần điểm danh: "
+    },
     "about": {
         "script": {
             "p1": "Khác với các cộng đồng Fan Club của Taylor Swift chuyên nghiệp tại nước ngoài, cộng đồng fan Taylor Swift Việt Nam không có một nơi tập trung để gặp gỡ và chia sẻ, học hỏi lẫn nhau. Hiện này, có nhiều diễn đàn liên quan tới cộng đồng fan Taylor trên thế giới nhưng sự hạn chế về khoảng cách và ngôn ngữ khiến các thành viên của Việt Nam khó lòng giao lưu và tiếp cận, bên cạnh đó một số nhóm thành viên của Việt Nam đã được mở ra nhưng còn thưa thớt hoặc hoạt động không được chuyên nghiệp khiến cho việc gắn kết cộng đồng  fan Taylor Swift tại Việt Nam gặp nhiều trở ngại.",
