@@ -21,6 +21,16 @@
     "home": {
         "title": "Taylor Swift Việt Nam"
     },
+    "check-in": {
+        "code-input": "Nhập mã vé của bạn",
+        "check-in": "Điểm danh",
+        "welcome": "We were enchanted to me you! ",
+        "name": "Họ tên: ",
+        "ticket": "Mã vé: ",
+        "count-check-in": "Số lần điểm danh: ",
+        "reset": "Nhập mã vé khác",
+        "qrNotFound": "Không tìm thấy mã"
+    },
     "about": {
         "script": {
             "p1": "Khác với các cộng đồng Fan Club của Taylor Swift chuyên nghiệp tại nước ngoài, cộng đồng fan Taylor Swift Việt Nam không có một nơi tập trung để gặp gỡ và chia sẻ, học hỏi lẫn nhau. Hiện này, có nhiều diễn đàn liên quan tới cộng đồng fan Taylor trên thế giới nhưng sự hạn chế về khoảng cách và ngôn ngữ khiến các thành viên của Việt Nam khó lòng giao lưu và tiếp cận, bên cạnh đó một số nhóm thành viên của Việt Nam đã được mở ra nhưng còn thưa thớt hoặc hoạt động không được chuyên nghiệp khiến cho việc gắn kết cộng đồng  fan Taylor Swift tại Việt Nam gặp nhiều trở ngại.",
@@ -34,7 +44,8 @@
             "p2": "Những trang nhật ký này một lần nữa lại được Taylor thuật lại, và những thanh âm cuồng nhiệt của tuổi trẻ đó hẳn sẽ làm lay động trái tim của tất cả chúng ta. Đến với “The Eras Party (Chapter 03)”, chúng ta hãy cùng nhau lắng nghe, phân tích các ca khúc để thấu hiểu cô gái Speak Now nhiều hơn nhé.",
             "p3": "Đối tượng tham gia: Tất cả những bạn luôn yêu thích và ủng hộ Taylor Swift"
         },
-        "buy_ticket": "MUA VÉ"
+        "buy_ticket": "MUA VÉ",
+        "sold_out": "ĐÃ HẾT VÉ"
     },
     "form": {
         "name": "Họ và tên",

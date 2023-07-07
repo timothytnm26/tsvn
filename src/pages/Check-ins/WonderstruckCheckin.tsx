@@ -6,15 +6,10 @@ import { Clock } from "../../components/Clock/clock";
 import ParticlesComponent from "../../components/Particles/ParticlesComponent";
 import { heroOptions } from "../../components/Particles/particlesOptions";
 import { Container, ParaWrapper } from "../Home";
-import Footer from "../../components/Footer";
 import styled from "styled-components";
 import ParallaxText from "../../components/ParallaxText";
 import QRScanner from "../../components/QRDetect/QRDetect";
-import { use } from "i18next";
-import { HiOutlineQrcode } from "react-icons/hi";
-import { IMAGES } from "../../constants";
 import { TSVN } from "../../components/TSVNLogo";
-import { BsInputCursorText } from "react-icons/bs";
 // Config variables
 const SPREADSHEET_ID = import.meta.env.VITE_APP_SPREADSHEET_ID || "";
 const API_KEY = import.meta.env.VITE_APP_GOOGLE_API_KEY || "";
