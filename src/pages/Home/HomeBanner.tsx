@@ -219,7 +219,7 @@ export const HomeBanner = () => {
                           alt="blink"
                           className="blink_buf buf2"
                         />
-                        Check-in Sài Gòn
+                        Check in Sài Gòn
                       </TicketButton>
                     </NavLink>
                   </CountdownRender>

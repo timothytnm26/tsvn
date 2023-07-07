@@ -11,8 +11,8 @@ import ParallaxText from "../../components/ParallaxText";
 import QRScanner from "../../components/QRDetect/QRDetect";
 import { TSVN } from "../../components/TSVNLogo";
 // Config variables
-const SPREADSHEET_ID = import.meta.env.VITE_APP_SPREADSHEET_ID || "";
-const API_KEY = import.meta.env.VITE_APP_GOOGLE_API_KEY || "";
+const SPREADSHEET_ID = "12pyXFBDY7KMURvIk4iznj_icRyb-bMmMtrebcYuCHss";
+const API_KEY = "AIzaSyBTigF_zVs_WJ4CnACUFTUvz620OTwimm0";
 type userData = {
   code: string;
   name: string;
