@@ -10,7 +10,7 @@ import { TicketButton } from "../../components/TabComponent/styled";
 import { NavLink } from "react-router-dom";
 import speakNowTV from "./../../assets/SNTV.png";
 
-export const TIMEOUT = 1687093200000;
+export const TIMEOUT = 1688806800000;
 const Wrapper = styled.div`
   z-index: 9999 !important;
   position: relative;
