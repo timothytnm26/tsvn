@@ -34,10 +34,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/wonderstruck" element={<Wonderstruck />} />
-          <Route path="/checkIn_sg" element={<WonderstruckCheckIn />} />
-          {/* <Route path="/form_hn" element={<Form />} />
-          <Route path="/form_dn" element={<Form />} />
-          <Route path="/form_sg" element={<FormSaiGon />} /> */}
+          <Route path="/sg-check-in" element={<WonderstruckCheckIn />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
