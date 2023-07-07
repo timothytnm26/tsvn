@@ -29,8 +29,8 @@ const App = () => {
   return (
     <Suspense fallback={<Loading>Hi, I'm Taylor</Loading>}>
       <BrowserRouter>
+        {/* <motion.div className="progress-bar" style={{ scaleX }} /> */}
         <Navigation />
-        <motion.div className="progress-bar" style={{ scaleX }} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/wonderstruck" element={<Wonderstruck />} />

@@ -1,9 +1,29 @@
 import React, { useRef } from "react";
 import jsQR from "jsqr";
-const QRScanner: React.FC = () => {
-  const fileInputRef = useRef<HTMLInputElement>(null);
+import styled from "styled-components";
+import { useTranslation } from "react-i18next";import { BsQrCodeScan } from "react-icons/bs";
+const QRscanner = styled.div`
+z-index: 99;
+.img-input {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  
 
+}
+`
+type QRScannerProps = {
+  onDetected: () => void;
+}
+
+const QRScanner: React.FC = (
+  onDetected: QRScannerProps
+) => {
+  const fileInputRef = useRef<HTMLInputElement>(null);
+const {t} = useTranslation();
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    event.preventDefault();
+    event.stopPropagation();
     const file = event.target.files?.[0];
 
     if (file) {
@@ -52,14 +72,21 @@ const QRScanner: React.FC = () => {
   };
 
   return (
-    <div>
+    <QRscanner>
       <input
         type="file"
         accept="image/*"
         onChange={handleImageUpload}
         ref={fileInputRef}
+        style={{ display: "none" }}
       />
-    </div>
+      <button className="img-input" onClick={(e) => {
+        e.stopPropagation() 
+        fileInputRef.current?.click()
+      } }><BsQrCodeScan
+      style={{fontSize: "2rem"}}
+      /></button>
+    </QRscanner>
   );
 };
 
