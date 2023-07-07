@@ -198,7 +198,7 @@ export const HomeBanner = () => {
               if (completed) {
                 return (
                   <CountdownRender className="ticket-btn">
-                    <NavLink to={"/wonderstruck#tickets"}>
+                    <NavLink to={"/sg-check-in"}>
                       <TicketButton
                         style={{
                           zIndex: "99999 !important",
@@ -219,7 +219,7 @@ export const HomeBanner = () => {
                           alt="blink"
                           className="blink_buf buf2"
                         />
-                        {t("countdown")}
+                        Check-in Sài Gòn
                       </TicketButton>
                     </NavLink>
                   </CountdownRender>
