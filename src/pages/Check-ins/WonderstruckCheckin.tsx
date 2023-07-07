@@ -11,7 +11,7 @@ import styled from 'styled-components';
 import ParallaxText from '../../components/ParallaxText';
 import QRScanner from '../../components/QRDetect/QRDetect';
 import { use } from 'i18next';
-import { HiOutlineQrcode } from "react-icons/hi";
+import { HiOutlineQrcode } from 'react-icons/hi';
 // Config variables
 const SPREADSHEET_ID = import.meta.env.VITE_APP_SPREADSHEET_ID || '';
 const API_KEY = import.meta.env.VITE_APP_GOOGLE_API_KEY || '';
@@ -37,6 +37,10 @@ const Form = styled.form`
     background-color: transparent !important;
     color: #fff;
     font-family: 'GothamMedium';
+    &::placeholder{
+      color: #fff;
+      opacity: .8;
+    }
   }
   .button {
     margin-top: 1rem;
@@ -53,7 +57,7 @@ const Form = styled.form`
     &:focus &:hover {
       color: #ffffff;
       background-color: var(--speak-now-5);
-      border: 1px solid var(--speak-now-5);
+      border: 2px solid var(--speak-now-5);
       text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
       box-shadow: 0 0 5px var(--speak-now-5), 0 0 20px var(--speak-now-5),
         0 0 50px var(--speak-now-5), 0 0 100px #008cff;
@@ -75,6 +79,7 @@ const WonderstruckCheckIn = () => {
   const [userCheckInInfo, setUserCheckInInfo] = useState<userData>();
   const [checkInData, setCheckInData] = useState<userData[]>([]);
   const [countCheckIn, setCountCheckIn] = useState<number>(0);
+  const [qrCode, setQrCode] = useState<string>('');
   const [paused, setPaused] = useState<boolean>(false);
   const { data, loading, error } = useGoogleSheets({
     apiKey: API_KEY || '',
@@ -105,7 +110,9 @@ const WonderstruckCheckIn = () => {
   if (error) {
     return <div>Error!</div>;
   }
-
+  const handleQRCode = (code: string) => {
+    setQrCode(code);
+  };
   const Submit = (e: any) => {
     console.log('submit');
     e.preventDefault();
@@ -137,6 +144,7 @@ const WonderstruckCheckIn = () => {
         });
     } else {
       alert('Invalid Code');
+      setQrCode('');
     }
   };
   return (
@@ -155,40 +163,44 @@ const WonderstruckCheckIn = () => {
             <Info>{userCheckInInfo.phone}</Info>
             <Info>{countCheckIn}</Info>
             <Info>{userCheckInInfo.code}</Info>
+            <Info>{qrCode}</Info>
           </Infos>
         ) : (
-          <><Form
-            className="form"
-            onSubmit={(e) => Submit(e)}
-          >
-            <div
-              style={{
-                maxWidth: '85vw',
-                display: 'flex',
-                justifyContent: 'space-between',
-                gap: '1rem',
-                alignContent: 'center',
-                alignItems: 'center',
-              }}
+          <>
+            <Form
+              className="form"
+              onSubmit={(e) => Submit(e)}
             >
-              {' '}
+              <div
+                style={{
+                  maxWidth: '85vw',
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  gap: '1rem',
+                  alignContent: 'center',
+                  alignItems: 'center',
+                }}
+              >
+                {' '}
+                <input
+                  placeholder={`${t('check-in.code-input')}`}
+                  name="Code"
+                  type="text"
+                  className="input"
+                  value={qrCode}
+                  onChange={(e) => setQrCode(e.target.value)}
+                />
+              </div>
               <input
-                placeholder={`${t('check-in.code-input')}`}
-                name="Code"
-                type="text"
-                className="input"
+                type="submit"
+                value={`${t('check-in.check-in')}`}
+                className="button"
               />
-             
-            </div>
-            <input
-              type="submit"
-              value={`${t('check-in.check-in')}`}
-              className="button"
-            />
-          </Form>
-          <br />
-          <br/>
-           <QRScanner  /></>
+            </Form>
+            <br />
+            <br />
+            <QRScanner onDetected={handleQRCode} />
+          </>
         )}
         <></>{' '}
         <div

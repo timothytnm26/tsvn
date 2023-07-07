@@ -8,17 +8,23 @@ z-index: 99;
   background-color: transparent;
   border: none;
   color: #fff;
-  
+  cursor: pointer;
+  height: 32px;
+  &:focus, &:hover {
+      color: #ffffff;
+      background-color: var(--speak-now-5);
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+      box-shadow: 0 0 5px var(--speak-now-5), 0 0 20px var(--speak-now-5),
+        0 0 50px var(--speak-now-5), inset 0 0 10px var(--speak-now-5);
+    }
 
 }
 `
 type QRScannerProps = {
-  onDetected: () => void;
+  onDetected: (newValue: string) => void;
 }
 
-const QRScanner: React.FC = (
-  onDetected: QRScannerProps
-) => {
+const QRScanner: React.FC<QRScannerProps> = ({ onDetected }) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
 const {t} = useTranslation();
   const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -33,7 +39,7 @@ const {t} = useTranslation();
         const imageData = reader.result as string;
         const image = new Image();
 
-        image.onload = () => {
+        image.onload = () => { 
           const canvas = document.createElement("canvas");
           const context = canvas.getContext("2d");
 
@@ -59,6 +65,7 @@ const {t} = useTranslation();
 
             if (code) {
               console.log("QR Code detected:", code.data);
+              onDetected(code.data);
               // Handle the detected QR code here
             }
           }
