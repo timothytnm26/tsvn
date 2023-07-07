@@ -27,7 +27,9 @@
         "welcome": "We were enchanted to me you! ",
         "name": "Họ tên: ",
         "ticket": "Mã vé: ",
-        "count-check-in": "Số lần điểm danh: "
+        "count-check-in": "Số lần điểm danh: ",
+        "reset": "Nhập mã vé khác",
+        "qrNotFound": "Không tìm thấy mã"
     },
     "about": {
         "script": {

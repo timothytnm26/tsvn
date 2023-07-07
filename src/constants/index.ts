@@ -1,26 +1,26 @@
-import tsvn from '../assets/imgs/tsvn.svg';
-import taylorSpeakNow from '../assets/imgs/taylorSpeakNow.jpg';
-import taylormobile from '../assets/imgs/taylormobile.jpg';
-import wonderstruck from '../assets/imgs/wonderstruck.png';
-import buffterfly1 from '../assets/imgs/buf1.svg';
-import buffterfly2 from '../assets/imgs/buf2.svg';
-import buffterfly3 from '../assets/imgs/buf3.svg';
-import buffterfly4 from '../assets/imgs/buf4.svg';
-import buffterfly5 from '../assets/imgs/buf5.svg';
-import buffterfly0 from '../assets/imgs/buf0.svg';
-import sg1 from '../assets/imgs/ASIANA0.png';
-import sg2 from '../assets/imgs/ASIANA1.png';
-import sg3 from '../assets/imgs/ASIANA2.png';
-import sg4 from '../assets/imgs/ASIANA3.png';
-import dn1 from '../assets/imgs/dn1.png';
-import dn2 from '../assets/imgs/dn2.png';
-import dn3 from '../assets/imgs/dn3.png';
-import dn4 from '../assets/imgs/dn4.png';
-import dragon2 from '../assets/imgs/dragon2.svg';
-import hn1 from '../assets/imgs/DIADIEMCHAP3HN1.png';
-import hn2 from '../assets/imgs/DIADIEMCHAP3HN2.png';
-import hn3 from '../assets/imgs/DIADIEMCHAP3HN3.png';
-import hn4 from '../assets/imgs/DIADIEMCHAP3HN4.png';
+import tsvn from "../assets/imgs/tsvn.svg";
+import taylorSpeakNow from "../assets/imgs/taylorSpeakNow.jpg";
+import taylormobile from "../assets/imgs/taylormobile.jpg";
+import wonderstruck from "../assets/imgs/wonderstruck.png";
+import buffterfly1 from "../assets/imgs/buf1.svg";
+import buffterfly2 from "../assets/imgs/buf2.svg";
+import buffterfly3 from "../assets/imgs/buf3.svg";
+import buffterfly4 from "../assets/imgs/buf4.svg";
+import buffterfly5 from "../assets/imgs/buf5.svg";
+import buffterfly0 from "../assets/imgs/buf0.svg";
+import sg1 from "../assets/imgs/ASIANA0.png";
+import sg2 from "../assets/imgs/ASIANA1.png";
+import sg3 from "../assets/imgs/ASIANA2.png";
+import sg4 from "../assets/imgs/ASIANA3.png";
+import dn1 from "../assets/imgs/dn1.png";
+import dn2 from "../assets/imgs/dn2.png";
+import dn3 from "../assets/imgs/dn3.png";
+import dn4 from "../assets/imgs/dn4.png";
+import dragon2 from "../assets/imgs/dragon2.svg";
+import hn1 from "../assets/imgs/DIADIEMCHAP3HN1.png";
+import hn2 from "../assets/imgs/DIADIEMCHAP3HN2.png";
+import hn3 from "../assets/imgs/DIADIEMCHAP3HN3.png";
+import hn4 from "../assets/imgs/DIADIEMCHAP3HN4.png";
 // import tep11 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (1).jpg";
 // import tep12 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (2).jpg";
 // import tep13 from "../assets/imgs/slides/The Eras Party (Chapter 01)_ Screaming In Vain (3).jpg";
@@ -82,21 +82,21 @@ export const IMAGES = {
   // mid3: mid3,
 };
 export const LANGUAGES = [
-  { label: 'Tiếng Việt', code: 'vn' },
-  { label: 'English', code: 'en' },
+  { label: "Tiếng Việt", code: "vn" },
+  { label: "English", code: "en" },
 ];
-export const FIND_DATA_KEY = 'FB_PUBLIC_LOAD_DATA_';
-export const FORM_RESPONSE = 'formResponse';
+export const FIND_DATA_KEY = "FB_PUBLIC_LOAD_DATA_";
+export const FORM_RESPONSE = "formResponse";
 export const FORM_URLS = {
-  hn: '',
-  dn: '',
-  sg: '',
+  hn: "",
+  dn: "",
+  sg: "",
 };
 export const FORM_FIELDS = {
   sg: {
-    id: 'hcm',
+    id: "hcm",
     form_url:
-      'https://docs.google.com/forms/d/e/1FAIpQLSetLCl8O1g8HNQaGBX4EoS8G_lSO6kxUN6GtP0vdTfsJC354Q/',
+      "https://docs.google.com/forms/d/e/1FAIpQLSetLCl8O1g8HNQaGBX4EoS8G_lSO6kxUN6GtP0vdTfsJC354Q/",
     inputs: {
       name: 1493562255,
       dob: 1848726192,
@@ -114,72 +114,72 @@ export const FORM_FIELDS = {
 
 export const TABS = [
   {
-    key: 'hn',
-    title: 'HÀ NỘI',
+    key: "hn",
+    title: "HÀ NỘI",
     image: [
-      { alt: 'HA NOI', src: IMAGES.hn1, desc: '' },
-      { alt: 'HA NOI', src: IMAGES.hn2, desc: '' },
-      { alt: 'HA NOI', src: IMAGES.hn3, desc: '' },
-      { alt: 'HA NOI', src: IMAGES.hn4, desc: '' },
+      { alt: "HA NOI", src: IMAGES.hn1, desc: "" },
+      { alt: "HA NOI", src: IMAGES.hn2, desc: "" },
+      { alt: "HA NOI", src: IMAGES.hn3, desc: "" },
+      { alt: "HA NOI", src: IMAGES.hn4, desc: "" },
     ],
     preImages: [
       {
         src: `${IMAGES.wonderstruck}`,
-        desc: '',
+        desc: "",
       },
       {
         src: `${IMAGES.wonderstruck}`,
-        desc: '',
+        desc: "",
       },
     ],
     formUrl:
-      'https://docs.google.com/forms/d/e/1FAIpQLSfsdP4AelxFYlel3Wwck1oQH2HPbRW3-in-fWZis1u5WZegzg/viewform?usp=sf_link',
+      "https://docs.google.com/forms/d/e/1FAIpQLSfsdP4AelxFYlel3Wwck1oQH2HPbRW3-in-fWZis1u5WZegzg/viewform?usp=sf_link",
     soldOut: true,
   },
   {
-    key: 'dn',
-    title: 'ĐÀ NẴNG',
+    key: "dn",
+    title: "ĐÀ NẴNG",
     image: [
-      { alt: 'DA NANG', src: IMAGES.dn1, desc: '' },
-      { alt: 'DA NANG', src: IMAGES.dn2, desc: '' },
-      { alt: 'DA NANG', src: IMAGES.dn3, desc: '' },
-      { alt: 'DA NANG', src: IMAGES.dn4, desc: '' },
+      { alt: "DA NANG", src: IMAGES.dn1, desc: "" },
+      { alt: "DA NANG", src: IMAGES.dn2, desc: "" },
+      { alt: "DA NANG", src: IMAGES.dn3, desc: "" },
+      { alt: "DA NANG", src: IMAGES.dn4, desc: "" },
     ],
     preImages: [
       {
         src: `${IMAGES.wonderstruck}`,
-        desc: '',
+        desc: "",
       },
       {
         src: `${IMAGES.wonderstruck}`,
-        desc: '',
+        desc: "",
       },
     ],
     formUrl:
-      'https://docs.google.com/forms/d/e/1FAIpQLSeWCJ3ccL-PYwTDAobN1VgDL76Yg6zoUsGxLhPU2xgPuOzV-Q/viewform?usp=sf_link',
+      "https://docs.google.com/forms/d/e/1FAIpQLSeWCJ3ccL-PYwTDAobN1VgDL76Yg6zoUsGxLhPU2xgPuOzV-Q/viewform?usp=sf_link",
     soldOut: false,
   },
   {
-    key: 'sg',
-    title: 'SÀI GÒN',
+    key: "sg",
+    title: "SÀI GÒN",
     image: [
-      { alt: 'SAI GON', src: IMAGES.sg1, desc: '' },
-      { alt: 'SAI GON', src: IMAGES.sg2, desc: '' },
-      { alt: 'SAI GON', src: IMAGES.sg3, desc: '' },
-      { alt: 'SAI GON', src: IMAGES.sg4, desc: '' },
+      { alt: "SAI GON", src: IMAGES.sg1, desc: "" },
+      { alt: "SAI GON", src: IMAGES.sg2, desc: "" },
+      { alt: "SAI GON", src: IMAGES.sg3, desc: "" },
+      { alt: "SAI GON", src: IMAGES.sg4, desc: "" },
     ],
     preImages: [
       {
         src: `${IMAGES.wonderstruck}`,
-        desc: '',
+        desc: "",
       },
       {
         src: `${IMAGES.wonderstruck}`,
-        desc: '',
+        desc: "",
       },
     ],
     formUrl:
-      'https://docs.google.com/forms/d/e/1FAIpQLSetLCl8O1g8HNQaGBX4EoS8G_lSO6kxUN6GtP0vdTfsJC354Q/viewform?usp=sf_link',
+      "https://docs.google.com/forms/d/e/1FAIpQLSetLCl8O1g8HNQaGBX4EoS8G_lSO6kxUN6GtP0vdTfsJC354Q/viewform?usp=sf_link",
     soldOut: true,
   },
 ];

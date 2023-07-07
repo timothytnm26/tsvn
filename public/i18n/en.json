@@ -27,7 +27,9 @@
         "welcome": "We were enchanted to me you! ",
         "name": "Name: ",
         "ticket": "Code: ",
-        "count-check-in": "Number of check-in: "
+        "count-check-in": "Number of check-in: ",
+        "reset": "Type another code",
+        "qrNotFound": "QR code not found"
     },
     "about": {
         "script": {

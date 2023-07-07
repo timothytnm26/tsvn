@@ -8,8 +8,9 @@ const Hour = styled.div`
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
+  margin: 1rem;
   div > p {
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     font-weight: 700;
     color: #fff;
     font-family: "CarlaSansRegular";
